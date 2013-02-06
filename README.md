@@ -35,3 +35,18 @@ And have the template views/index.html
 
 Notice we included a couple partials. You don't have to do anything more then
 have them in the views directory for them to be loaded and rendered. Easy.
+
+
+## Usage outside of Express's render function
+
+    var hogan = require('hogan-engine');
+
+    // Set the root of the template directory
+    hogan.root = __dirname + '/views';
+
+    // Set cache to true to cache the templates, do this in production please
+    hogan.cache = true;
+
+    hogan('index.html', { title: 'Hello World' }, function (err, text) {
+      // ...
+    });
