@@ -2,7 +2,7 @@
 
 ## Installation
 
-  npm install hogan-engine
+    npm install hogan-engine
 
 ## Setup
 
