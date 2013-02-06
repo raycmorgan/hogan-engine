@@ -7,7 +7,7 @@
     "hogan",
     "express"
   ],
-  "version": "0.9.1",
+  "version": "0.9.2",
   "homepage": "http://github.com/raycmorgan/hogan-engine",
   "author": "RayMorgan <raycmorgan@gmail.com>",
   "main": "lib/index",
