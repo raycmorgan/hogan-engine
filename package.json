@@ -1,0 +1,17 @@
+{
+  "name": "hogan-engine",
+  "description": "Hogan.js for Express 3.x. Auto loads used partials and caches templates.",
+  "keywords": [
+    "template",
+    "mustache",
+    "hogan",
+    "express"
+  ],
+  "version": "0.9.0",
+  "homepage": "http://github.com/raycmorgan/hogan-engine",
+  "author": "RayMorgan <raycmorgan@gmail.com>",
+  "main": "lib/index",
+  "dependencies": {
+    "hogan.js": "~2.0.0"
+  }
+}
