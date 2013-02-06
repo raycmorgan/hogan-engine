@@ -29,7 +29,7 @@ And have the template views/index.html
 
     {{> header.html}}
 
-    <h1>{{ titile }}</h1>
+    <h1>{{ title }}</h1>
 
     {{> footer.html}}
 
